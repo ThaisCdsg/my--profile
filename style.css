@@ -1,0 +1,112 @@
+body {
+	background: #fb8d62;
+	color:#834b16;
+	font-weight: 500;
+	font-size: 16px;
+	font-family: Arvo;	
+
+}
+
+a {
+	text-decoration: none;
+	color: #ffe46a;
+	font-family: Lato;
+	font-weight: bolder;
+}
+
+a:hover {
+	color: #961115;
+	text-decoration: underline;
+}
+
+h1, h2, h3 {
+	font-family: Arvo;
+	font-weight: 900;
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+h1 {
+	font-size: 25px;
+}
+
+
+#Thaïs {
+	width: 150px;
+}
+
+#miro {
+	width: 80px;
+}
+
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.card-yellow {
+	background: #fdd365;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-red {
+	background-color: #fb8d62;
+	color: #ffe46a;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-red:hover {
+	background-color:rgb(251,141,50);
+
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: #fb8d62;
+}
+
+.list-inline i:hover {
+	color: rgb(251,141,50);
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
